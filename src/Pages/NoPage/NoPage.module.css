@@ -1,0 +1,62 @@
+.NoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Title {
+  font-family: Work Sans;
+  font-size: 231px;
+  font-weight: 700;
+  line-height: 97.3%;
+  background: var(--primary, linear-gradient(134deg, #bc3cd8 0%, #c54b8c 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 72px;
+
+  @media (max-width: 768px) {
+    font-size: 150px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 115px;
+  }
+}
+
+.NoPageText {
+  color: var(--primary-foreground-color, #2d4642);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  max-width: 400px;
+  margin-bottom: 48px;
+}
+
+.Button {
+  cursor: pointer;
+  width: 200px;
+  height: 55px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 3px solid#bc3cd8;
+
+  @media (max-width: 768px) {
+    width: 250px;
+    height: 65px;
+  }
+  @media (max-width: 320px) {
+    width: 200px;
+    height: 55px;
+  }
+}
+
+.ButtonText {
+  color: #000;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: -0.4px;
+}
