@@ -1,5 +1,10 @@
 import styles from './Home.module.css';
+import { CoinTable } from '../../Modules';
 
 export const Home = () => {
-  return <div>Hiiiiii</div>;
+  return (
+    <>
+      <CoinTable />
+    </>
+  );
 };
